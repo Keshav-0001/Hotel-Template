@@ -362,6 +362,9 @@ height: 380px;
 .btn2 {
     margin-bottom: 21px;
 }
+    .nav-sec {
+    margin: 17px 18px;
+}
 
 
 }
@@ -387,6 +390,9 @@ height: 380px;
 
     margin: 0px;
 
+}
+    .nav-sec {
+    margin: 17px 18px;
 }
 
 }
