@@ -1,0 +1,392 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* nav section */
+.nav-section{
+
+width: 100%;
+float: left;
+background-color: #7287ae;
+
+}
+
+.nav-sec{
+
+    margin: 30px 80px;
+   
+}
+
+.nav-link{
+color: white !important;
+
+}
+
+
+/* nav section end */
+
+/* banner section */
+
+.banner-section{
+
+width: 100%;
+float: left;
+height: 400px;
+background-color: #7287ae;
+
+}
+
+.food{
+
+padding: 5% 10%;
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+color: #ffff;
+}
+
+.resto-p{
+
+margin: 0px;
+
+}
+
+
+/* banner section */
+
+/* menu section */
+
+.menu-section{
+
+width: 100%;
+float: left;
+background-color: #dfe2e7;
+padding-bottom: 50px;
+
+
+
+}
+
+
+.menu{
+width: 100%;
+float: left;
+text-align: center;
+padding: 50px;
+
+
+}
+
+
+.card-col{
+
+width: 100%;
+
+
+
+}
+
+
+.menu-button{
+
+    width: 100%;
+    margin: 50px;
+}
+
+.btn{
+    background-color: #7287ae;
+    color: white;
+}
+
+
+/* menu seciton end */
+
+
+/* discount-section  start*/
+
+.discount-section{
+
+    width: 100%;
+    float: left;
+   
+}
+
+
+.cupcake-image{
+
+    width: 100%;
+    float: left;
+    height: 590px;
+
+}
+
+
+.strawberry-image{
+
+    width: 100%;
+    float: left;
+    height: 590px;
+}
+
+
+
+.discountpara{
+
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-right: 50px;
+padding: 0px 10%;
+   
+
+
+}
+
+.discounth1{
+
+margin-top: 100px;
+margin-right: 50px;
+margin-left: 50px;
+padding: 0px 10%;
+   
+}
+
+
+.btn2{
+
+    margin-top: 20px;
+}
+
+.promo-section{
+    width: 100%;
+    float: left;
+}
+/* discount seciton end */
+
+
+
+/*order section start  */
+
+.order-section{
+
+width: 100%;
+float: left;
+background-color: #7287ae;
+
+}
+
+.orderh1{
+
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
+.order-items{
+text-align: center;
+color: white;
+padding-bottom: 5%;
+padding-right: 5%;
+margin-bottom:50px;
+}
+
+
+
+/* order section end */
+
+/* delivery section start */
+
+.delievery-section{
+
+width: 100%;
+float:left;
+background: url(images/background1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+
+
+
+}
+
+.freedel{
+
+    padding:0 30%;
+    text-align: center;
+    color:#7287ae;
+}
+
+.freedelh1{
+text-align: center;
+margin-top:72px;
+margin-bottom: 20px;
+color: #7287ae;
+
+}
+
+.btn2{
+
+    margin-bottom: 120px;
+
+}
+
+
+/* delievery section end */
+
+/* waiter sections start */
+
+.waiter-section{
+
+    width: 100%;
+    float: left;
+    background-color:#dfe2e7 ;
+    
+}
+
+
+
+.waiterdiv{
+
+text-align: center;
+padding-top: 5%;
+
+}
+
+.div-col{
+
+padding: 5%;
+text-align: center;
+
+}
+
+.comma-icon{
+
+margin: 40px;
+
+}
+
+.order-para{
+
+    color: #7287ae;
+}
+
+/* waiter section end */
+
+.footer-section{
+
+width: 100%;
+float: left;
+background-color: #7287ae;
+
+}
+
+.footer-para{
+    padding: 5%;
+
+}
+
+.footerh1{
+
+padding-left: 5%;
+color: white;
+
+}
+
+
+.about-footer{
+
+    padding: 10%;
+    color: white;
+
+}
+
+.about-link{
+
+    margin-top: 50px;
+}
+
+.footer-h4{
+
+    margin-left: 35px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.ul-link{
+
+
+list-style: none;
+color: white;
+
+}
+
+
+.font-icon{
+
+
+padding: 20px;
+color:#5973a3 ;
+
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+
+.cupcake-image{
+
+width: 100%;
+height: 380px;
+
+
+}
+
+
+.strawberry-image {
+    
+    height: 365px;
+}
+
+.discounth1 {
+    margin-top: 42px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 0px 10%;
+    
+}
+.btn2 {
+    margin-bottom: 21px;
+}
+
+
+}
+
+
+@media screen and (min-device-width: 820px) and (max-device-width: 1180px){
+
+    .cupcake-image {
+        width: 100%;
+        float: left;
+        height: 529px;
+    }
+
+
+    .discounth1 {
+        margin-top: 13px;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 0px 10%;
+    }
+
+.btn2{
+
+    margin: 0px;
+
+}
+
+}
